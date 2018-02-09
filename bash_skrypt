@@ -1,0 +1,12 @@
+#!/bin/bash
+lel="lol"
+echo $lel
+echo $1
+read dong
+echo \"$dong\"
+if [ $1 -gt $dong ]
+then
+echo "wstępne jest większe"
+else
+echo "wstępne jest mniejsze"
+fi
